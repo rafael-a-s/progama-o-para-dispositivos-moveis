@@ -3,7 +3,7 @@ import 'package:cli/cli.dart' as cli;
 import 'package:cli/fila/fila.dart';
 import 'package:cli/pilha/pilha.dart';
 
-void main(List<String> arguments) {
+void main() {
   Pilha pilha = new Pilha();
   print("======== PILHA ==========");
   pilha.push("value 1");
